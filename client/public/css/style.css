@@ -12,3 +12,29 @@ html {
 	font-size: 20px;
 	text-rendering: optimizeLegibility;
 }
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/* Background-size: cover allows us to see whole image and not zoomed in part of image*/
+/* Setting height to 100vh extends header to entire viewpoint / viewhieght*/
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.hero-text-box {
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1 {
+	margin: 0;
+}
