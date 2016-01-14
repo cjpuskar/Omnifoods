@@ -36,4 +36,29 @@ $(document).ready(function() {
 		});
 	});
 
+	/*  Animations on Scroll */
+	$('.js--wp-1').waypoints(function(direction) {
+		$('.js--wp-1').addClass('animated fadeIn');
+	}, {
+		offset: '50%'
+	});
+
+	$('.js--wp-2').waypoints(function(direction) {
+		$('.js--wp-2').addClass('animated fadeInUp');
+	}, {
+		offset: '50%'
+	});
+
+	$('.js--wp-3').waypoints(function(direction) {
+		$('.js--wp-3').addClass('animated fadeIn');
+	}, {
+		offset: '50%'
+	});
+
+	$('.js--wp-4').waypoints(function(direction) {
+		$('.js--wp-4').addClass('animated fadeIn');
+	}, {
+		offset: '50%'
+	});
+
 });
